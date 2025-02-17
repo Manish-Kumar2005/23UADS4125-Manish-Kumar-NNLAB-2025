@@ -1,6 +1,9 @@
 ##OBJECTIVE:
 
 To implement a Multi-Layer Perceptron (MLP) using NumPy and demonstrate its ability to solve the XOR Boolean function. XOR is a non-linearly separable problem that requires at least one hidden layer for correct classification.
+
+
+
 ##Description of the Model:
 
 A Multi-Layer Perceptron (MLP) is a type of artificial neural network that consists of an input layer, one or more hidden layers, and an output layer. In this implementation:
