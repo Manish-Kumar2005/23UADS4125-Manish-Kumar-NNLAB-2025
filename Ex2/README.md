@@ -49,10 +49,10 @@ A Multi-Layer Perceptron (MLP) is a type of artificial neural network that consi
    The step function prevents the use of gradient-based optimization methods like backpropagation.
 
   (b) Scope for Improvement:
+  Implement a trainable version using backpropagation to optimize weights dynamically.
 
-    Implement a trainable version using backpropagation to optimize weights dynamically.
+  Use non-linear activation functions like sigmoid or ReLU to enable smooth learning.
 
-    Use non-linear activation functions like sigmoid or ReLU to enable smooth learning.
+  Extend the model to handle multi-class classification problems beyond XOR
 
-    Extend the model to handle multi-class classification problems beyond XOR.
 
