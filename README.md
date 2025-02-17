@@ -1,58 +1,35 @@
-##OBJECTIVE:
+List of Experiments:
 
-To implement a Multi-Layer Perceptron (MLP) using NumPy and demonstrate its ability to solve the XOR Boolean function. XOR is a non-linearly separable problem that requires at least one hidden layer for correct classification.
+1.WAP to implement the Perceptron Learning Algorithm using numpy in Python. Evaluate performance of a single perceptron for NAND and XOR truth tables as input dataset. 
 
+2.WAP to implement a multi-layer perceptron (MLP) network with one hidden layer using numpy in Python. Demonstrate that it can learn the XOR Boolean function.  
 
-##Description of the Model:
+3.WAP to implement a three-layer neural network using Tensor flow library (only, no keras) to classify MNIST handwritten digits dataset. Demonstrate the implementation of feed-forward and back-propagation approaches. 
 
-A Multi-Layer Perceptron (MLP) is a type of artificial neural network that consists of an input layer, one or more hidden layers, and an output layer. In this implementation:
+4.WAP to evaluate the performance of implemented three-layer neural network with variations in activation functions, size of hidden layer, learning rate, batch size and number of epochs. 
 
-  Input Layer: Two neurons representing the binary inputs.
+5.WAP to train and evaluate a convolutional neural network using Keras Library to classify MNIST fashion dataset. Demonstrate the effect of filter size, regularization, batch size and optimization algorithm on model performance. 
 
-  Hidden Layer: Four neurons acting as feature extractors, using logical AND, OR, and NOR-like operations.
+6.WAP to train and evaluate a Recurrent Neural Network using PyTorch Library to predict the next value in a sample time series dataset. 
 
-  Output Layer: A single neuron that combines hidden layer outputs to compute the XOR function.
+7.WAP to retrain a pretrained imagenet model to classify a medical image dataset. 
 
-  Activation Function: A step function is used to determine neuron activation.
+Mini Project 1: Build an image dataset that contains grayscale images of leaves of various plants/trees growing in MBMU campus. Perform necessary preprocessing steps to make the dataset uniform and ready for training. Train a deep autoencoder network that can reproduce any random image of a leaf from MBMU campus. 
 
-  Forward Propagation: Computes outputs at each layer using dot products and activation functions.
+Bonus: Can we use this network to identify if a leaf is from MBM Campus or not?
 
-##Description of Code:
+Mini Project 2: Create an Android App that captures the readings from motion sensors (accelerometer and gyroscope) in an android phone. Build a dataset using this application that contains the motion characteristics of an average person driving a two-wheeler. Build a LSTM classifier that takes any 3 second sample as input and classifies it as Kankar Road, Bitumen Road, Concrete Road, Single Speed Breaker and Multiple Speed Breakers. 
 
-  Perceptron Function: Implements a step activation function to compute neuron outputs.
+Bonus: Can we use this dataset to generate alerts when a person is rash driving?
 
-  Hidden Layer Processing: Uses four perceptrons with predefined weights and biases to extract relevant XOR features.
+Mini Project 3: Build a Video Dataset that contains short videos (max. 5 seconds) of students performing Yogasanas (atleast 6 asanas) with diverse backgrounds, ambient lighting and clothes. Train a CNN that can identify the asana being performed in the video. 
 
-  Output Layer Processing: Combines hidden layer outputs with another perceptron to compute the final XOR output.
+Bonus: Can we further rate the asana pose as Good, Average and Poor?
 
-  Testing: The model is tested on the XOR truth table inputs, and results are printed.
-
-  Performance Evaluation: Calculates accuracy based on correct classifications.
-
-##Performance Evaluation:
-
-  Accuracy: The model achieves 100% accuracy on the XOR problem, demonstrating that the step-based perceptron MLP can successfully classify XOR inputs.
-
-  Loss Reduction: Explicit loss calculation is not used, but correct predictions validate the model’s effectiveness.
-
-  Confusion Matrix (Optional): A possible future enhancement to visualize correct and incorrect classifications.
-
-  Graphical Representation (Optional): Decision boundaries could be plotted to better understand the model’s separability.
-
-##MY COMMENTS:
-
-  (a) Limitations:
-
-   The model is manually designed with fixed weights and biases, limiting its adaptability to other problems.
-
-   The step function prevents the use of gradient-based optimization methods like backpropagation.
-
-  (b) Scope for Improvement:
-
-    Implement a trainable version using backpropagation to optimize weights dynamically.
-
-    Use non-linear activation functions like sigmoid or ReLU to enable smooth learning.
-
-    Extend the model to handle multi-class classification problems beyond XOR.
-
+Sample Datasets:
+https://www.kaggle.com/c/titanic
+https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
+https://www.kaggle.com/datasets/fedesoriano/wind-speed-prediction-dataset
+https://www.kaggle.com/datasets/shivam2503/diamonds
+https://www.kaggle.com/c/web-traffic-time-series-forecasting/data
 
