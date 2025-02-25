@@ -1,5 +1,5 @@
 Neural Network Laboratory Record
-B.E. (AI & DS) VI Semester
+B.E. (AI & DS) VI Semester 
 
 Roll No: 23UADS4125
 
